@@ -239,7 +239,7 @@ despliegue. Consulta el [roadmap del producto](ROADMAP.md).
 - [Manual del administrador](docs/MANUAL_ADMINISTRADOR.md)
 - [Guía de contribución](CONTRIBUTING.md)
 - [Roadmap](ROADMAP.md)
-- [Guion para el video demostrativo](docs/GUION_VIDEO.md)
+
 - [Programa de trabajo](Programa_Trabajo_SIPU.xlsx)
 - [Repositorio público](https://github.com/Elias1030/SIPU-Patitas-Unidas-Dgo)
 
