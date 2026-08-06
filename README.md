@@ -17,7 +17,10 @@ Dgo**, asociación dirigida por Bilay Campos en Durango, México.
 10. [Pruebas e integración continua](#pruebas-e-integración-continua)
 11. [Administración del proyecto](#administración-del-proyecto)
 12. [Estrategia de ramas y etapas](#estrategia-de-ramas-y-etapas)
-13. [Documentación complementaria](#documentación-complementaria)
+13. [Uso](#uso)
+14. [Contribución](#contribución)
+15. [Roadmap](#roadmap)
+16. [Documentación complementaria](#documentación-complementaria)
 
 ## Resumen ejecutivo
 
@@ -200,9 +203,43 @@ Todo cambio funcional debe integrarse primero en `develop` mediante un *pull
 request*. Después de las pruebas y la aceptación, `develop` se integra en
 `master` para publicar la versión GA.
 
+## Uso
+
+- [Manual para usuario final](docs/MANUAL_USUARIO.md): explica cómo acceder,
+  registrar animales, consultar expedientes y actualizar estados.
+- [Manual del administrador](docs/MANUAL_ADMINISTRADOR.md): explica cómo
+  compilar, desplegar, iniciar, detener y diagnosticar la aplicación.
+- [Instalación y configuración](docs/INSTALACION_CONFIGURACION.md): describe el
+  ambiente de desarrollo, pruebas, archivos de configuración y alternativas de
+  despliegue.
+
+La versión Beta actual debe utilizarse solamente con datos de demostración. Los
+registros se conservan en memoria mientras Tomcat permanece encendido y se
+eliminan cuando el servidor se reinicia.
+
+## Contribución
+
+Las modificaciones deben desarrollarse en una rama `feature/<tarea>` creada a
+partir de `develop`. Después de compilar y ejecutar las pruebas, el cambio se
+envía a GitHub y se integra mediante un pull request. Consulta la
+[guía de contribución](CONTRIBUTING.md) para conocer el procedimiento completo.
+
+## Roadmap
+
+El desarrollo se organiza en las etapas Beta y General Availability. Las
+siguientes iteraciones incorporarán persistencia PostgreSQL, autenticación,
+adopciones, salud, donativos, voluntariado, veterinarias, reportes, seguridad y
+despliegue. Consulta el [roadmap del producto](ROADMAP.md).
+
 ## Documentación complementaria
 
 - [Arquitectura de la solución](docs/ARQUITECTURA.md)
+- [Instalación y configuración](docs/INSTALACION_CONFIGURACION.md)
+- [Manual de usuario final](docs/MANUAL_USUARIO.md)
+- [Manual del administrador](docs/MANUAL_ADMINISTRADOR.md)
+- [Guía de contribución](CONTRIBUTING.md)
+- [Roadmap](ROADMAP.md)
+- [Guion para el video demostrativo](docs/GUION_VIDEO.md)
 - [Programa de trabajo](Programa_Trabajo_SIPU.xlsx)
 - [Repositorio público](https://github.com/Elias1030/SIPU-Patitas-Unidas-Dgo)
 
